@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 100px;
+    background-color: lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#details {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    text-align: center;
+    background-color: #0cc;
+    z-index: 100;
+}
+h2.alignleft {
+    float: left;
+}
+
+.headings {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+
+}
+li {
+    list-style-type: "➢";
+    color: firebrick;
+}
+li span {
+    color: black;
+}
+
